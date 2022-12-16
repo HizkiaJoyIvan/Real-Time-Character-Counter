@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+h2 {
+    color: white;
+}
+body {
+    font-family: "nunito";
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100vw;
+    justify-content: center;
+    background-color: blueviolet;
+}
+#container {
+    background-color: purple;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,.5);
+    
+}
+#textarea {
+    width: 100%;
+    height: 100px;
+    border: solid 2px gainsboro;
+}
+#counter-container {
+    display: flex;
+    justify-content: space-between;
+}
+#counter-container p{
+    color: white;
+}
+#total-character{
+    color: cyan;
+}
+#remaining {
+    color: red;
+}
+
